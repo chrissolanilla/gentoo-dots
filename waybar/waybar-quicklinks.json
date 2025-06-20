@@ -1,0 +1,38 @@
+{
+    "custom/quicklink1": {
+        "format": "",
+        "on-click": "chromium",
+        "tooltip-format": "Open Chromium"
+    }, 
+    "custom/quicklink2": {
+        "format": "",
+        "on-click": "firefox-bin",
+        "tooltip-format": "Open Firefox"
+    },
+    "custom/quicklink3": {
+        "format": "",
+        "on-click": "dolphin",
+        "tooltip-format": "Open filemanager"
+    }, 
+    "custom/quicklink4": {
+        "format": "",
+        "on-click": "hyprshot --clipboard-only -m region",
+        "tooltip-format": "Color Picker"
+    }, 
+    "custom/quicklink5": {
+        "format": "",
+        "on-click": "hyprpicker -a",
+        "tooltip-format": "Screenshot"
+    }, 
+    "custom/quicklinkempty": {
+    }, 
+    "group/quicklinks": {
+        "orientation": "horizontal",
+        "modules": [
+            "custom/quicklink2",
+            "custom/quicklink3",
+            "custom/quicklink4",
+            "custom/quicklink5",
+        ]
+    }
+}
